@@ -6,9 +6,9 @@ let subtraction = (firstNumber - secondNumber)
 let multiplication = (firstNumber * secondNumber)
 let division = (firstNumber / secondNumber)
 
-alert(`\nКористувач ввів ${firstNumber} і ${secondNumber}:
-${firstNumber} + ${secondNumber} = ${addition}\n 
-${firstNumber} - ${secondNumber} = ${subtraction}\n 
-${firstNumber} * ${secondNumber} = ${multiplication}\n 
-${firstNumber} / ${secondNumber} = ${division.toFixed(1)}\n 
+alert(`Користувач ввів ${firstNumber} і ${secondNumber}:
+${firstNumber} + ${secondNumber} = ${addition}
+${firstNumber} - ${secondNumber} = ${subtraction} 
+${firstNumber} * ${secondNumber} = ${multiplication} 
+${firstNumber} / ${secondNumber} = ${division.toFixed(1)}
 `)
