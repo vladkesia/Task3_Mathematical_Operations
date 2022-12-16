@@ -1,7 +1,7 @@
-let firstNumber = prompt('Введіть перше число');
-let secondNumber = prompt('Введіть друге число');
+let firstNumber = +prompt('Введіть перше число');
+let secondNumber = +prompt('Введіть друге число');
 
-let addition = (firstNumber * 1 + secondNumber * 1)
+let addition = (+firstNumber  + +secondNumber)
 let subtraction = (firstNumber - secondNumber)
 let multiplication = (firstNumber * secondNumber)
 let division = (firstNumber / secondNumber)
